@@ -34,7 +34,9 @@ import AdminDeposits from "@/pages/admin/deposits";
 import AdminMessages from "@/pages/admin/messages";
 import AdminSettings from "@/pages/admin/settings";
 
-import NotFound from "@/pages/not-found";
+import NotFconst API_BASE = import.meta.env.VITE_API_URL
+fetch(`${API_BASE}/api/users`)
+ound from "@/pages/not-found";
 
 // Simple Campaign Directory Page (Using Celebrities list filtered for campaigns)
 function PublicCampaigns() {
